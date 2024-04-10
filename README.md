@@ -2,8 +2,8 @@
   - ```cd \path\goes\here``` -> change directory to path passed as an argument
   - ```pwd``` -> prints the current path, also visible behind the newline symbol
   - ```ls``` -> prints out all files and directories in the current directory
-  - ```create``` -> makes an empty file called ```emptyFile``` in the current directory WIP
-  - ```rm``` -> deletes the file called ```emptyFile``` in the current directory WIP
+  - ```create``` -> makes an empty file called ```emptyFile``` in the current directory (WIP)
+  - ```rm``` -> deletes the file called ```emptyFile``` in the current directory (WIP)
 
 - Math tools
   - ```sum a1 a2 a3... an``` -> Sum: prints the sum of all arguments
@@ -18,4 +18,4 @@
 
 - Terminal flow
   - ```exit``` -> exit the shell
-  - ```clear``` -> doesn't actually work but is supposed to clear the screen 
+  - ```clear``` -> doesn't actually work but is supposed to clear the screen (WIP)
