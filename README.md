@@ -6,12 +6,13 @@
   - ```rm``` -> deletes the file called ```emptyFile``` in the current directory WIP
 
 - Math tools
-  - ```sum a1 a2 a3... an``` -> Sum: prints the sum of all arguments, i32.
-  - ```prod a1 a2 a3... an``` -> Product: prints the product of all arguments, i32. 
-  - ```exp a b``` -> Exponent: prints a^b, i32.
-  - ```mod a b``` -> Mod: prints a % b, i32. 
-  - ```fib n``` -> Fibonacci: prints the $n^{\text{th}}$ fibonacci number, i32.
-  - ```pi``` -> Pi: prints $\pi$ to a 100 digits, String.
+  - ```sum a1 a2 a3... an``` -> Sum: prints the sum of all arguments
+  - ```prod a1 a2 a3... an``` -> Product: prints the product of all arguments
+  - ```exp a b``` -> Exponent: prints a^b
+  - ```mod a b``` -> Mod: prints a % b
+  - ```fib n``` -> Fibonacci: prints the $n^{\text{th}}$ fibonacci number
+  - ```pi``` -> Pi: prints $\pi$ to a 100 digits
+  - 
 
 - Terminal flow
   - ```exit``` -> exit the shell
