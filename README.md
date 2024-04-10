@@ -20,3 +20,4 @@
 - ### Terminal flow:
   - ```exit``` -> exit the shell
   - ```clear``` -> doesn't actually work but is supposed to clear the screen (WIP)
+  - ```cmd1 || cmd2``` -> chain commands together, executing left to right
