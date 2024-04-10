@@ -5,6 +5,8 @@ use std::process::{Child, Command, Stdio};
 use std::os;
 use std::fs::File;
 use std::fs;
+use std::fmt;
+
 
 fn fib(n: i32) -> i32 {
     if n == 0 || n == 1{
@@ -14,6 +16,7 @@ fn fib(n: i32) -> i32 {
     return fib(n - 1) + fib(n - 2);
 
 }
+
 
 fn main() -> std::io::Result<()> {
     loop {
@@ -79,6 +82,27 @@ fn main() -> std::io::Result<()> {
 
                     let out = fib(n);   
                     println!("{out}");
+                }
+
+                "bin" => {
+                    let Some(ne): Option<&str> = args.next() else {panic!()};
+                    let mut n: i32 = ne.parse::<i32>().unwrap();
+
+                    println!{"{n:#b}"};
+                }
+
+                "hex" => {
+                    let Some(ne): Option<&str> = args.next() else {panic!()};
+                    let mut n: i32 = ne.parse::<i32>().unwrap();
+
+                    println!{"{n:#x}"};
+                }
+
+                "oct" => {
+                    let Some(ne): Option<&str> = args.next() else {panic!()};
+                    let mut n: i32 = ne.parse::<i32>().unwrap();
+
+                    println!{"{n:#o}"};
                 }
 
                 "cd" => {
