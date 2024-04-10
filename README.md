@@ -12,7 +12,9 @@
   - ```mod a b``` -> Mod: prints a % b
   - ```fib n``` -> Fibonacci: prints the $n^{\text{th}}$ fibonacci number
   - ```pi``` -> Pi: prints $\pi$ to a 100 digits
-  - 
+  - ```bin n``` -> Binary: prints n in base 2
+  - ```hex n``` -> Hexadecimal: prints n in base 16
+  - ```oct n``` -> Octanary: prints n in base 8
 
 - Terminal flow
   - ```exit``` -> exit the shell
