@@ -16,6 +16,7 @@
   - ```bin n``` -> Binary: prints n in base 2
   - ```hex n``` -> Hexadecimal: prints n in base 16
   - ```oct n``` -> Octanary: prints n in base 8
+  - ```bitshift n m``` -> Bitshifts to the left m times: returns $n \times 2^m$
 
 - ### Terminal flow:
   - ```exit``` -> exit the shell
