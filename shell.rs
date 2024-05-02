@@ -76,6 +76,21 @@ fn main() -> std::io::Result<()> {
                     println!("{out}");
                 }
 
+                "bitshift" => {
+                    let Some(ne): Option<&str> = args.next() else {panic!()};
+                    let mut n: i32 = ne.parse::<i32>().unwrap();
+                    let Some(ne): Option<&str> = args.next() else {panic!()};
+                    let mut m: i32 = ne.parse::<i32>().unwrap();
+                    let mut out = n;
+
+                    while m > 0 {
+                        out *= 2;
+                        m += -1;
+                    }
+
+                    println!("{out}");
+                }
+
                 "fib" => {
                     let Some(ne): Option<&str> = args.next() else {panic!()};
                     let mut n: i32 = ne.parse::<i32>().unwrap();
